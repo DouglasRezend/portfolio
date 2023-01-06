@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #2d2e2c7e;
+    color: white;
 }
 header > h1 {
     color: #8d9c8e
