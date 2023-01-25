@@ -1,25 +1,51 @@
 @charset "utf-8";
-/* Paleta de cores :
-#49537c
-#5a648e
-#8d9c8e
-#2d2e2c
-
-*/
-*{
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* box-sizing: border-box;
     background-color: #2d2e2c7e;
     color: white;
+    font-family: arial,Verdana, helvetica, sans-serif;
+*/
+:root{
+    --cor0: #49537c;
+    --cor1: #5a648e;
+    --cor2: #8d9c8e;
+    --cor3: #2d2e2c;
+    --cor4: #c5ebd6;
+
+    --fonte-padrao: arial,Verdana, helvetica, sans-serif;
+
+
+
+}
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    
+
 }
 header > h1 {
-    color: #8d9c8e
-    ;
+    color: var(--cor2);
+    font-family: var(--fonte-principal);
+    margin: auto, center; 
+    
+    
 }
-header > h1 > time {
-    color: #49537c;
+header > h1 > span {
+    color: var(--cor1)
+}
+main {
+  /*  min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.486);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+*/
 }
 
 img{
