@@ -69,25 +69,56 @@ li:hover{
 }
 section h1 {
     color: var(--cor5);
+    font-size: 30px;
 }
 section h1 span {
     color: var(--cor6);
+    font-size: 25px;
 }
 
 .imagem{
     position: absolute;
     left: 50%;
-    width: 380px;
-    height: 300px;
+    bottom: 28%;
+    max-width: 400px;
 }
 .sobre-min{
     display: flex;
     align-items: center;
-    padding:30px 0;
+    padding:30px 15%;
     background-color: #000000;
     color: var(--cor4);
+    
 }
 
 .sobre-min > img {
     height: 300px;
+    border: 2px solid var(--cor4);
+    border-radius: 100%;
+    margin-right: 50px;
+    padding: 0;
+}
+.sobre-min h2 {
+    font-size: 45px;
+}
+.sobre-min p {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+section article button{
+    color: var(--cor4);
+    background: #020a3a;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+}
+section article button:hover{
+    background-color:var(--cor6);
+    border: 3px solid var(--cor4);
+    transition: 0.5s;
+
 }
